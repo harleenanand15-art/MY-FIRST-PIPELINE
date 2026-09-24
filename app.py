@@ -11,7 +11,7 @@ def subtract(a, b):
 
 @app.route('/')
 def home():
-    return "Hello! My CI/CD pipeline is working!"
+    return "Hello, mera pehla live app!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000)
